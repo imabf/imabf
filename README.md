@@ -1,7 +1,8 @@
 # Hi 👋
-🎓 CS Graduate, May 2026  
-🔐 Interested in Cybersecurity, AI, and Full-Stack Development  
-🎮 Game Developer | Unity & C#   
+Ahmad Almashhadani
+🎓 Computer Science Graduate From Qatar University 
+🔐 Software Engineering
+🎮 Interested in Game Developing | Unity & C# | Cybersecurity | Artificial Intelligence 
 📫 abfmashhadani@gmail.com  
 
 ---
