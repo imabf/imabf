@@ -1,8 +1,12 @@
 # Hi 👋
 Ahmad Almashhadani
+
 🎓 Computer Science Graduate From Qatar University 
+
 🔐 Software Engineering
+
 🎮 Interested in Game Developing | Unity & C# | Cybersecurity | Artificial Intelligence 
+
 📫 abfmashhadani@gmail.com  
 
 ---
