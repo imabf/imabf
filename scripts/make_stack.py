@@ -39,7 +39,7 @@ def main():
 <style>text{{font-family:{FONT};font-size:13px}}.g{{font-weight:700}}.c{{fill:#c9d1d9}}.t{{font-size:12px;fill:#7d8590}}{anim}</style>
 <rect x=".5" y=".5" width="{W - 1}" height="{H - 1}" rx="10" fill="#0d1117" stroke="#30363d"/>
 <circle cx="20" cy="19" r="5" fill="#ff5f57"/><circle cx="37" cy="19" r="5" fill="#febc2e"/><circle cx="54" cy="19" r="5" fill="#28c840"/>
-<text x="{W / 2}" y="23" class="t" text-anchor="middle">kioxr@github: ~/stack</text>
+<text x="{W / 2}" y="23" class="t" text-anchor="middle">imabf@github: ~/stack</text>
 <line x1="0" y1="36" x2="{W}" y2="36" stroke="#30363d"/>
 {"".join(out)}
 </svg>

@@ -6,7 +6,7 @@ import re
 import sys
 from pathlib import Path
 
-USER = os.environ.get("GH_USER", "kioxr")
+USER = os.environ.get("GH_USER", "imabf")
 OUT = Path(__file__).resolve().parent.parent / "data" / "contributions.json"
 
 

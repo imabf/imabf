@@ -6,7 +6,7 @@ from xml.sax.saxutils import escape
 ROOT = Path(__file__).resolve().parent.parent
 STATIC = os.environ.get("STATIC") == "1"
 
-USER, HOST = "kioxr", "github"
+USER, HOST = "imabf", "github"
 ROWS = [  # (key, value) - None draws a blank line
     ("Name", "Ahmad Almashhadani"),
     ("Role", "Software Developer (open to junior roles)"),
