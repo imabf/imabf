@@ -8,7 +8,7 @@ STATIC = os.environ.get("STATIC") == "1"
 GROUPS = [
     ("Languages", "#58a6ff", ["Python", "JavaScript", "C#", "Bash", "SQL"]),
     ("Backend", "#39d353", ["Node.js", "Express", "FastAPI", "REST APIs", "Async pub/sub"]),
-    ("AI / LLM", "#f778ba", ["LangGraph", "Ollama", "Output validation"]),
+    ("AI / LLM", "#f778ba", ["Ollama", "Local LLMs", "Output validation"]),
     ("Data", "#bc8cff", ["SQLite", "MySQL", "Oracle SQL", "Firebase"]),
     ("Craft", "#ffa657", ["pytest", "Git", "Linux", "Ansible", "Agile", "UML"]),
 ]

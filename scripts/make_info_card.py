@@ -17,7 +17,7 @@ ROWS = [  # (key, value) - None draws a blank line
     None,
     ("Langs", "Python, JavaScript, C#, Bash, SQL"),
     ("Backend", "Node.js, Express, FastAPI, REST APIs"),
-    ("AI/LLM", "LangGraph agents, Ollama, output validation"),
+    ("AI/LLM", "Ollama (local LLMs), output validation"),
     ("Data", "MySQL, SQLite, Oracle SQL, Firebase"),
     ("Practice", "pytest, Git/GitHub, Linux, Agile, UML, Ansible"),
     None,
