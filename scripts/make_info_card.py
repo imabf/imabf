@@ -9,17 +9,17 @@ STATIC = os.environ.get("STATIC") == "1"
 USER, HOST = "kioxr", "github"
 ROWS = [  # (key, value) - None draws a blank line
     ("Name", "Ahmad Almashhadani"),
+    ("Role", "Software Engineer"),
     ("Based", "Qatar"),
     ("Edu", "B.Sc. Computer Science, Qatar University"),
-    ("Focus", "Software Engineering · Cybersecurity · Game Dev · AI"),
+    ("Focus", "Backend systems · APIs · clean, tested, maintainable code"),
     None,
-    ("Langs", "Python, JavaScript, C#, Bash, MATLAB"),
-    ("Web", "Node.js, Express.js, HTML, CSS"),
-    ("Security", "Pen Testing, Network Security, Wireshark, Kali Linux"),
-    ("GameDev", "Unity, C# scripting, game & level design"),
+    ("Langs", "Python, JavaScript, C#, Bash"),
+    ("Web", "Node.js, Express.js, REST APIs, HTML, CSS"),
     ("Data", "MySQL, SQLite, Firebase, Oracle SQL"),
+    ("Practice", "Agile, UML, Git, system design, code review"),
     None,
-    ("Built", "ResiWare: LLM-powered ransomware defense system"),
+    ("Built", "ResiWare: LLM-powered threat-detection system"),
     ("Speaks", "Arabic (native), English (fluent)"),
     ("Contact", "abfmashhadani@gmail.com"),
 ]

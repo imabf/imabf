@@ -6,7 +6,7 @@
 <br><br>
 
 <h3><code>kioxr@github ~ $ neofetch</code></h3>
-<img src="./info-card.svg" width="860" alt="Ahmad Almashhadani: Computer Science graduate from Qatar University working across software engineering, cybersecurity, game development and AI" />
+<img src="./info-card.svg" width="860" alt="Ahmad Almashhadani: Software engineer and Computer Science graduate from Qatar University" />
 
 <br><br>
 
@@ -16,12 +16,10 @@
 
 | Project | What it is |
 | --- | --- |
-| 🛡️ [**ResiWare**](https://github.com/kioxr/resiware) | AI-powered ransomware defense system using LLMs; detected threats across hundreds of simulated security events |
+| 🧠 [**ResiWare**](https://github.com/kioxr/resiware) | LLM-powered threat-detection system; analysed hundreds of simulated security events end to end |
 | 🌐 **Full-Stack Web App** | Node.js app with authentication, REST APIs, and a responsive UI |
-| 💻 **OS Shell Project** | Shell scripting and client-server socket communication on Linux |
-| 🔑 **Password Pen Testing** | Brute-force simulation and vulnerability reporting using ethical hacking techniques |
-| 🎮 **Game Design Project** | Unity & C# design document covering mechanics, narrative, and level structure |
 | ⚙️ **Software Engineering Project** | Led full system development with Agile, UML diagrams, and use cases |
+| 💻 **OS Shell Project** | Shell scripting and client-server socket communication on Linux |
 
 <div align="center">
 
