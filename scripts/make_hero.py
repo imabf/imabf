@@ -10,7 +10,8 @@ NAME = "Ahmad Almashhadani"
 LINES = [
     "Building reliable backend systems",
     "Designing clean, well-tested APIs",
-    "Clean APIs. Tested code. Shipped.",
+    "Software that integrates LLMs, tested with pytest",
+    "Open to junior software developer roles",
 ]
 W, H = 860, 220
 FONT = "ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace"
@@ -64,7 +65,7 @@ text{{font-family:{FONT}}}
 </g>
 <rect x=".5" y=".5" width="{W - 1}" height="{H - 1}" rx="14" fill="none" stroke="#30363d"/>
 <text x="430" y="82" class="nm" text-anchor="middle">{NAME}</text>
-<text x="430" y="108" class="sub" text-anchor="middle">SOFTWARE ENGINEER</text>
+<text x="430" y="108" class="sub" text-anchor="middle">SOFTWARE DEVELOPER · DOHA, QATAR</text>
 {"".join(tag)}
 </svg>
 '''

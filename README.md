@@ -10,7 +10,7 @@
 <br><br>
 
 <h3><code>kioxr@github ~ $ neofetch</code></h3>
-<img src="./info-card.svg" width="860" alt="Ahmad Almashhadani: software engineer and Computer Science graduate from Qatar University" />
+<img src="./info-card.svg" width="860" alt="Ahmad Almashhadani: software developer, Computer Science graduate (GPA 3.60, Distinction Award) from Qatar University" />
 
 <br><br>
 
@@ -25,10 +25,10 @@
 
 | Project | What it is |
 | --- | --- |
-| 🧠 [**ResiWare**](https://github.com/kioxr/resiware) | Multi-agent, event-driven pipeline in Python: async topic-based pub/sub, local-LLM reasoning, FastAPI + PyTorch scoring service, SQLite integration and a Streamlit dashboard. Rebuilt with strict contracts and a passing test suite (11 tests) |
-| 🌐 **Full-Stack Web App** | Node.js app with authentication, REST APIs, and a responsive UI |
-| ⚙️ **Software Engineering Project** | Led full system development with Agile, UML diagrams, and use cases |
-| 💻 **OS Shell Project** | Shell scripting and client-server socket communication on Linux |
+| 🧠 [**ResiWare**](https://github.com/kioxr/resiware) | Senior capstone (team of 4): a multi-process, multi-agent Python system (~20k lines) that ingests SIEM alerts, correlates them with a local LLM, scores risk and dispatches automated responses over an async pub/sub bus and shared SQLite. I wrote the response layer's **policy engine** (deterministic rules, hard veto and mandate, LLM limited to approved options) with 270 lines of pytest, integrated into the LangGraph action agent with a deterministic guard over LLM choices. I co-wrote the fault-tolerant feedback service (queues outcomes locally and replays them when the learning API is down) and owned the UML design and project docs. `Python · LangGraph · Ollama · SQLite · Ansible · pytest` |
+| 🌐 **Full-Stack Web App** | Express back end exposing a RESTful API with user authentication and database persistence, and a responsive front end consuming it. `Node.js · Express · REST · HTML/CSS/JS` |
+| 💻 **Client–Server & Shell Automation** | Socket-based client–server program and Bash scripts automating file and process management on Linux. `Linux sockets · Bash` |
+| ⚙️ **Software Engineering Team Project** | Led a team from requirements gathering through use-case and UML modelling to an Agile implementation of a complete system. `UML · Agile` |
 
 <div align="center">
 
