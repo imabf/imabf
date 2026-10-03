@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 220" width="860" height="220" role="img" aria-label="Ahmad Almashhadani, Software Engineer">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset=".55" stop-color="#101a2e"/><stop offset="1" stop-color="#0d2a1f"/></linearGradient>
+<linearGradient id="nm" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#58a6ff"/><stop offset=".5" stop-color="#bc8cff"/><stop offset="1" stop-color="#39d353"/></linearGradient>
+<clipPath id="c"><rect width="860" height="220" rx="14"/></clipPath>
+</defs>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+.r{font-size:11px;fill:#39d353;opacity:0}
+.nm{font-size:44px;font-weight:800;fill:url(#nm)}
+.tag{font-size:19px;fill:#c9d1d9}
+.sub{font-size:12px;fill:#7d8590;letter-spacing:3px}
+@keyframes fall{from{transform:translateY(-10px);opacity:0}15%{opacity:.5}to{transform:translateY(240px);opacity:0}}.r{animation:fall linear infinite}@keyframes glow{0%,100%{opacity:.8}50%{opacity:1}}.nm{animation:glow 3s ease-in-out infinite}@media (prefers-reduced-motion:reduce){.r,.nm{animation:none}}
+</style>
+<g clip-path="url(#c)">
+<rect width="860" height="220" fill="url(#bg)"/>
+<text class="r" x="20" y="0" style="animation-duration:5s;animation-delay:-0.0s">const build = () =&gt; ship();</text><text class="r" x="103" y="0" style="animation-duration:6s;animation-delay:-0.9s">def handle(req): ...</text><text class="r" x="186" y="0" style="animation-duration:7s;animation-delay:-1.8s">git commit -m 'ship it'</text><text class="r" x="269" y="0" style="animation-duration:8s;animation-delay:-2.7s">SELECT * FROM impact;</text><text class="r" x="352" y="0" style="animation-duration:5s;animation-delay:-3.6s">app.get('/api', handler)</text><text class="r" x="435" y="0" style="animation-duration:6s;animation-delay:-4.5s">assert result == expected</text><text class="r" x="518" y="0" style="animation-duration:7s;animation-delay:-5.4s">class Service: ...</text><text class="r" x="601" y="0" style="animation-duration:8s;animation-delay:-6.3s">npm run test &amp;&amp; deploy</text><text class="r" x="684" y="0" style="animation-duration:5s;animation-delay:-7.2s">async function run() {}</text><text class="r" x="767" y="0" style="animation-duration:6s;animation-delay:-8.1s">return Ok(data)</text>
+<rect width="860" height="220" fill="#0d1117" opacity=".35"/>
+</g>
+<rect x=".5" y=".5" width="859" height="219" rx="14" fill="none" stroke="#30363d"/>
+<text x="430" y="82" class="nm" text-anchor="middle">Ahmad Almashhadani</text>
+<text x="430" y="108" class="sub" text-anchor="middle">SOFTWARE ENGINEER</text>
+<text x="430" y="150" class="tag" text-anchor="middle" opacity="0">&gt; Building reliable backend systems<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.000;0.030;0.293;0.323;1" dur="12s" repeatCount="indefinite"/></text><text x="430" y="150" class="tag" text-anchor="middle" opacity="0">&gt; Designing clean, well-tested APIs<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.333;0.363;0.627;0.657;1" dur="12s" repeatCount="indefinite"/></text><text x="430" y="150" class="tag" text-anchor="middle" opacity="0">&gt; Clean APIs. Tested code. Shipped.<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.667;0.697;0.960;0.990;1" dur="12s" repeatCount="indefinite"/></text>
+</svg>

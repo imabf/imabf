@@ -10,17 +10,15 @@ USER, HOST = "kioxr", "github"
 ROWS = [  # (key, value) - None draws a blank line
     ("Name", "Ahmad Almashhadani"),
     ("Role", "Software Engineer"),
-    ("Based", "Qatar"),
     ("Edu", "B.Sc. Computer Science, Qatar University"),
     ("Focus", "Backend systems · APIs · clean, tested, maintainable code"),
     None,
-    ("Langs", "Python, JavaScript, C#, Bash"),
-    ("Web", "Node.js, Express.js, REST APIs, HTML, CSS"),
+    ("Langs", "Python, JavaScript, C#, Bash, SQL"),
+    ("Web", "Node.js, Express.js, REST APIs"),
     ("Data", "MySQL, SQLite, Firebase, Oracle SQL"),
     ("Practice", "Agile, UML, Git, system design, code review"),
     None,
     ("Built", "ResiWare: LLM-powered threat-detection system"),
-    ("Speaks", "Arabic (native), English (fluent)"),
     ("Contact", "abfmashhadani@gmail.com"),
 ]
 

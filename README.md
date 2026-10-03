@@ -1,12 +1,21 @@
 <div align="center">
 
+<img src="./hero.svg" width="860" alt="Ahmad Almashhadani, Software Engineer" />
+
+<br><br>
+
 <h3><code>kioxr@github ~ $ ./contributions.sh</code></h3>
 <img src="./contrib-heatmap.svg" width="860" alt="kioxr's contribution graph for the last year" />
 
 <br><br>
 
 <h3><code>kioxr@github ~ $ neofetch</code></h3>
-<img src="./info-card.svg" width="860" alt="Ahmad Almashhadani: Software engineer and Computer Science graduate from Qatar University" />
+<img src="./info-card.svg" width="860" alt="Ahmad Almashhadani: software engineer and Computer Science graduate from Qatar University" />
+
+<br><br>
+
+<h3><code>kioxr@github ~ $ cat stack.txt</code></h3>
+<img src="./stack.svg" width="860" alt="Languages, backend, data and engineering practices" />
 
 <br><br>
 
