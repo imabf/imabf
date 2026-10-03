@@ -25,7 +25,7 @@
 
 | Project | What it is |
 | --- | --- |
-| 🧠 [**ResiWare**](https://github.com/kioxr/resiware) | LLM-powered threat-detection system; analysed hundreds of simulated security events end to end |
+| 🧠 [**ResiWare**](https://github.com/kioxr/resiware) | Multi-agent, event-driven pipeline in Python: async topic-based pub/sub, local-LLM reasoning, FastAPI + PyTorch scoring service, SQLite integration and a Streamlit dashboard. Rebuilt with strict contracts and a passing test suite (11 tests) |
 | 🌐 **Full-Stack Web App** | Node.js app with authentication, REST APIs, and a responsive UI |
 | ⚙️ **Software Engineering Project** | Led full system development with Agile, UML diagrams, and use cases |
 | 💻 **OS Shell Project** | Shell scripting and client-server socket communication on Linux |

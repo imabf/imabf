@@ -13,12 +13,12 @@ ROWS = [  # (key, value) - None draws a blank line
     ("Edu", "B.Sc. Computer Science, Qatar University"),
     ("Focus", "Backend systems · APIs · clean, tested, maintainable code"),
     None,
-    ("Langs", "Python, JavaScript, C#, Bash, SQL"),
-    ("Web", "Node.js, Express.js, REST APIs"),
+    ("Langs", "Python, TypeScript, JavaScript, C#, Bash, SQL"),
+    ("Backend", "Node.js, Express, FastAPI, REST APIs"),
     ("Data", "MySQL, SQLite, Firebase, Oracle SQL"),
     ("Practice", "Agile, UML, Git, system design, code review"),
     None,
-    ("Built", "ResiWare: LLM-powered threat-detection system"),
+    ("Built", "ResiWare: multi-agent, event-driven detection pipeline"),
     ("Contact", "abfmashhadani@gmail.com"),
 ]
 
