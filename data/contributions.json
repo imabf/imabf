@@ -1,16 +1,16 @@
 {
  "user": "imabf",
- "generated_at": "2026-10-10T12:28:48Z",
- "total": 87,
- "active_days": 36,
- "current_streak": 8,
- "longest_streak": 8,
+ "generated_at": "2026-10-11T12:46:22Z",
+ "total": 86,
+ "active_days": 35,
+ "current_streak": 9,
+ "longest_streak": 9,
  "best_day": {
   "date": "2026-10-03",
   "count": 24
  },
  "monthly": {
-  "2025-10": 9,
+  "2025-10": 7,
   "2025-11": 18,
   "2025-12": 2,
   "2026-01": 0,
@@ -22,44 +22,9 @@
   "2026-07": 0,
   "2026-08": 1,
   "2026-09": 0,
-  "2026-10": 35
+  "2026-10": 36
  },
  "days": [
-  {
-   "date": "2025-10-05",
-   "count": 0,
-   "level": 0
-  },
-  {
-   "date": "2025-10-06",
-   "count": 0,
-   "level": 0
-  },
-  {
-   "date": "2025-10-07",
-   "count": 0,
-   "level": 0
-  },
-  {
-   "date": "2025-10-08",
-   "count": 1,
-   "level": 1
-  },
-  {
-   "date": "2025-10-09",
-   "count": 0,
-   "level": 0
-  },
-  {
-   "date": "2025-10-10",
-   "count": 1,
-   "level": 1
-  },
-  {
-   "date": "2025-10-11",
-   "count": 0,
-   "level": 0
-  },
   {
    "date": "2025-10-12",
    "count": 1,
@@ -1877,6 +1842,11 @@
   },
   {
    "date": "2026-10-10",
+   "count": 1,
+   "level": 1
+  },
+  {
+   "date": "2026-10-11",
    "count": 0,
    "level": 0
   }
