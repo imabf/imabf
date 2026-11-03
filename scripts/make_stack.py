@@ -6,11 +6,11 @@ from xml.sax.saxutils import escape
 ROOT = Path(__file__).resolve().parent.parent
 STATIC = os.environ.get("STATIC") == "1"
 GROUPS = [
-    ("Languages", "#58a6ff", ["Python", "JavaScript", "C#", "Bash", "SQL"]),
-    ("Backend", "#39d353", ["Node.js", "Express", "FastAPI", "REST APIs", "Async pub/sub"]),
-    ("AI / LLM", "#f778ba", ["Ollama", "Local LLMs", "Output validation"]),
-    ("Data", "#bc8cff", ["SQLite", "MySQL", "Oracle SQL", "Firebase"]),
-    ("Craft", "#ffa657", ["pytest", "Git", "Linux", "Ansible", "Agile", "UML"]),
+    ("QA", "#39d353", ["Manual testing", "Test cases", "Bug reports", "API testing", "SQL checks", "EP/BVA"]),
+    ("BA", "#f778ba", ["Requirements", "User stories", "Acceptance criteria", "Process flows", "UML"]),
+    ("Code", "#58a6ff", ["Python", "JavaScript", "Node.js", "C#", "Bash", "HTML/CSS"]),
+    ("Data", "#bc8cff", ["MySQL", "SQLite", "Oracle SQL", "Firebase"]),
+    ("Tools", "#ffa657", ["Jira", "Postman", "GitHub", "VS Code", "Linux", "Agile/Scrum"]),
 ]
 W, X0, ROW = 860, 28, 46
 FONT = "ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace"

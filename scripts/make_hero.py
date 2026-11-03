@@ -8,16 +8,16 @@ STATIC = os.environ.get("STATIC") == "1"
 
 NAME = "Ahmad Almashhadani"
 LINES = [
-    "Building reliable backend systems",
-    "Designing clean, well-tested APIs",
-    "Software that integrates LLMs, tested with pytest",
-    "Open to junior software developer roles",
+    "Software QA testing and business analysis",
+    "Test cases, bug reports, API testing with Postman",
+    "Requirements, user stories, acceptance criteria",
+    "Business Analyst Intern at Applab",
 ]
 W, H = 860, 220
 FONT = "ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace"
-RAIN = ["const build = () => ship();", "def handle(req): ...", "git commit -m 'ship it'",
-        "SELECT * FROM impact;", "app.get('/api', handler)", "assert result == expected",
-        "class Service: ...", "npm run test && deploy", "async function run() {}", "return Ok(data)"]
+RAIN = ["assert response.status_code == 200", "Given / When / Then", "SELECT COUNT(*) FROM orders;",
+        "boundary values: min, min+1, max", "Steps to reproduce:", "POST /api/login -> 401",
+        "As a user, I want to...", "Expected vs actual result", "Acceptance criteria met", "Test case: PASS"]
 
 
 def main():
@@ -65,7 +65,7 @@ text{{font-family:{FONT}}}
 </g>
 <rect x=".5" y=".5" width="{W - 1}" height="{H - 1}" rx="14" fill="none" stroke="#30363d"/>
 <text x="430" y="82" class="nm" text-anchor="middle">{NAME}</text>
-<text x="430" y="108" class="sub" text-anchor="middle">SOFTWARE DEVELOPER · DOHA, QATAR</text>
+<text x="430" y="108" class="sub" text-anchor="middle">SOFTWARE QA · BUSINESS ANALYSIS · DOHA, QATAR</text>
 {"".join(tag)}
 </svg>
 '''
