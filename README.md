@@ -29,6 +29,7 @@
 
 | Project | What it is |
 | --- | --- |
+| 🧪 [**QA Testing Portfolio**](./qa-portfolio) | [22 login test cases](./qa-portfolio/test-cases/login-test-cases.csv), [5 bug reports](./qa-portfolio/bug-reports), a [Postman API test collection](./qa-portfolio/postman) (12 requests, 20 assertions) and [SQL data-validation queries](./qa-portfolio/sql) |
 | 🛡️ [**ResiWare**](https://github.com/imabf/resiware) | Senior project, built as a team: an AI-assisted ransomware defense system that helps detect and respond to ransomware threats in an organization's network. Evaluated on simulated security events, where it successfully flagged ransomware activity |
 | ⚙️ **Software Engineering Project** | A complete system taken from requirements to implementation, with UML and use cases, built by an Agile team |
 | 🌐 **Full-Stack Web App** | Node.js front end and back end with user authentication and RESTful APIs |

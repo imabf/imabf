@@ -1,0 +1,23 @@
+ID,Title,Type,Priority,Preconditions,Steps,Test data,Expected result,Status,Linked bug
+TC-LOGIN-001,Login with valid credentials,Positive,High,User account exists,1. Open login page 2. Enter valid username 3. Enter valid password 4. Click Login,Valid username / valid password,User is logged in and lands on the secure page with a success message,Not run,
+TC-LOGIN-002,Login by pressing Enter in the password field,Positive,Medium,User account exists,1. Enter valid username and password 2. Press Enter instead of clicking Login,Valid credentials,Form is submitted and user is logged in,Fail,BUG-005
+TC-LOGIN-003,Login with valid username and wrong password,Negative,High,User account exists,1. Enter valid username 2. Enter wrong password 3. Click Login,Valid username / wrong password,Login rejected with a generic error; user stays on login page,Not run,
+TC-LOGIN-004,Login with unknown username,Negative,High,None,1. Enter a username that does not exist 2. Enter any password 3. Click Login,Unknown username / any password,Login rejected with a generic error; user stays on login page,Not run,
+TC-LOGIN-005,Error message does not reveal whether the username exists,Security,High,One valid and one unknown username,1. Submit valid username + wrong password 2. Submit unknown username + any password 3. Compare the two error messages,As described,Both attempts show the same generic message (no user enumeration),Fail,BUG-004
+TC-LOGIN-006,Empty username and empty password,Negative,Medium,None,1. Leave both fields empty 2. Click Login,Empty / empty,Validation message shown; no login,Not run,
+TC-LOGIN-007,"Empty username, valid password",Negative,Medium,None,1. Leave username empty 2. Enter password 3. Click Login,Empty / valid,Validation message shown; no login,Not run,
+TC-LOGIN-008,"Valid username, empty password",Negative,Medium,User account exists,1. Enter username 2. Leave password empty 3. Click Login,Valid / empty,Validation message shown; no login,Not run,
+TC-LOGIN-009,Username letter case handled as specified,Boundary,Low,User account exists,1. Enter username with different letter case 2. Enter valid password 3. Click Login,UPPER-case username,Behaviour matches the requirement (accepted or rejected consistently),Not run,
+TC-LOGIN-010,Leading/trailing spaces in username,Boundary,Low,User account exists,1. Enter ' username ' with spaces 2. Enter valid password 3. Click Login,Padded username,Input is trimmed or rejected consistently; no server error,Not run,
+TC-LOGIN-011,Very long username (boundary),Boundary,Low,None,1. Enter a 256+ character username 2. Enter any password 3. Click Login,256+ characters,Graceful rejection; no crash or stack trace,Not run,
+TC-LOGIN-012,Password field masks input,Positive,Medium,None,1. Type in the password field,Any text,Characters are masked,Not run,
+TC-LOGIN-013,SQL injection in username,Security,High,None,1. Enter ' OR '1'='1 as username 2. Enter any password 3. Click Login,' OR '1'='1,Login rejected; no database error shown,Not run,
+TC-LOGIN-014,Script injection in username,Security,Medium,None,1. Enter <script>alert(1)</script> as username 2. Click Login,XSS payload,Input is escaped; no script runs,Not run,
+TC-LOGIN-015,Account lockout after repeated failed attempts,Security,High,User account exists,1. Submit the wrong password 10 times in a row 2. Submit the correct password,"10 wrong attempts, then valid",Account is temporarily locked or throttled; correct password is also blocked during lockout,Fail,BUG-003
+TC-LOGIN-016,Secure page cannot be opened by direct URL when logged out,Security,High,User is logged out,1. Paste the secure page URL directly into the browser,Direct URL,User is redirected to the login page,Fail,BUG-001
+TC-LOGIN-017,Logout ends the session,Positive,High,User is logged in,1. Click Logout,None,User returns to login page,Not run,
+TC-LOGIN-018,Back button after logout does not show the secure page,Security,High,User just logged out,1. Click the browser Back button,None,Login page stays; secure content is not shown,Fail,BUG-002
+TC-LOGIN-019,Session expires after inactivity,Security,Medium,User is logged in,1. Stay idle for the session timeout 2. Refresh the secure page,Idle time,User is sent to login page,Not run,
+TC-LOGIN-020,Tab order and Enter/Tab keyboard navigation,Usability,Low,None,1. Use Tab to move through the fields and button,Keyboard only,"Logical order: username, password, Login",Not run,
+TC-LOGIN-021,Error message is visible and readable,Usability,Low,None,1. Trigger a failed login,Wrong password,Error is clearly shown near the form,Not run,
+TC-LOGIN-022,Login page over HTTPS,Security,Medium,None,1. Load the login page 2. Check the address bar,None,Page is served over HTTPS,Not run,
